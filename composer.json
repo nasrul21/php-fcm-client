@@ -1,0 +1,20 @@
+{
+    "name": "nasrul21/php-fcm-client",
+    "description": "Firebase Cloud Messaging (FCM) client for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nasrul Faizin",
+            "email": "faizinnasrul21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FCM\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 7.0"
+    }
+}
