@@ -12,7 +12,7 @@ class FCMClient
         $this->apiKey = $apiKey;
     }
 
-    public function send(array $registration_ids = [], string $title, string $body)
+    public function send(array $registration_ids, string $title, string $body)
     {
         $curl = curl_init();
 
