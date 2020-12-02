@@ -23,7 +23,7 @@ require 'vendor/autoload.php';
 // set api key
 $apiKey = "..." // your fcm api key
 
-// initialize FCMClinet with apiKey as params
+// initialize FCMClient with apiKey as params
 $fcm = new FCMClient($apiKey);
 
 $registration_ids = ["...", "..."];
